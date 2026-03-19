@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
-#include <algorithm>  // max_element, min_element
-#include <numeric>    // accumulate
+#include <algorithm>  
+#include <numeric>   
 using namespace std;
 
 int main() {
