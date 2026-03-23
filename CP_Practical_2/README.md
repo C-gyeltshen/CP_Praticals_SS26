@@ -1,9 +1,5 @@
 # CP Practical 2 - Competitive Programming Solutions
 
-**Course:** CSF303  
-**Semester:** 6  
-**Student:** Chimi Gyel Tshen
-
 A set of 6 different competitive programming problems solved in C++, covering concepts like bitmask DP, greedy algorithms, sliding window techniques, segment trees, and shortest path algorithms.
 
 ---
