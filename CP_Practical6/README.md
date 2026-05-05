@@ -1,4 +1,4 @@
-# CP_Practical6 — Trie, PATRICIA, and Manacher's Algorithm
+# Trie, PATRICIA, and Manacher's Algorithm Implementation
 
 
 
