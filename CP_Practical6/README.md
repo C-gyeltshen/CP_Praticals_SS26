@@ -1,10 +1,6 @@
 # CP_Practical6 — Trie, PATRICIA, and Manacher's Algorithm
 
-Implementations of three classical string data structures and algorithms in C++,
-compiled and tested on macOS (Apple Silicon). All source files use `using namespace std`
-and avoid the `std::` prefix throughout.
 
----
 
 ## Project Structure
 
@@ -272,9 +268,9 @@ structure yields 32 total palindromic substrings.
 
 ---
 
-## Reflection
+## **Reflection**
 
-### Trie
+### **Trie**
 ---
 
 The Trie was the most straightforward of the three to implement. Using
@@ -287,7 +283,7 @@ NOT FOUND while `startsWith("app")` returns YES correctly illustrates the
 `isEnd` flag's role — a node existing in the tree is not the same as a word being
 stored there.
 
-### PATRICIA Trie
+### **PATRICIA Trie**
 ---
 
 PATRICIA was by far the most intellectually challenging algorithm in this practical.
@@ -311,7 +307,7 @@ bit 19 matches manual bit-level calculation of where `'p'`/`'o'` and `'r'`/`'l'`
 diverge in ASCII, which confirmed the `getBit` and `firstDifferingBit` utilities
 were working correctly.
 
-### Manacher's Algorithm
+### **Manacher's Algorithm**
 ---
 
 Manacher's was the most elegant of the three. The single most important
